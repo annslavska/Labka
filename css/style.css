@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 226, 226);
+}
+
+#main-header {
+    text-align: center;
+    background-color:rgb(14, 12, 12);
+    padding: 10px;
+}
+
+#main-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+#navbar {
+    text-align: center;
+    background-color: rgb(28, 27, 29);
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main h1 {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.main li{
+    padding: 5px 0;
+}
+
+.main a{
+    color: black;
+}
+
+.main a:hover {
+    color: rgb(100, 0, 172);
+}
+
+.main .main-images img{
+    width: 30%;
+    margin-top: 10px;
+}
+
+.main .katalog-images img{
+    width: 95%;
+    margin-top: 10px;
+}
+
+.main label{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+.main .main-contact {
+    background-color: white;
+    margin: 5% 25%;
+    padding: 10%;
+}
+
+.main .main-contact p{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
